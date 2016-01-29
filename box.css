@@ -1,0 +1,75 @@
+body{
+	overflow-x: hidden;
+	overflow-y: scroll; 
+}
+
+.boxes{
+	position: fixed;
+	top: 15px;
+	left: 10px;
+}
+
+.row{
+	overflow-x: hidden;
+	overflow-y: scroll; 
+	margin-left: 5px;
+}
+
+.blackbox{
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 200px;
+	width: 200px;
+	background-color: black;
+	overflow: hidden;
+	border: 1px #000080 solid;
+}
+
+.whitebox{
+	margin-top: 10px;
+	height: 180px;
+	width: 170px;
+	overflow: hidden;
+}
+
+.imgbox{
+    transition: transform .5s ease-in-out;		
+}
+
+.imgbox:hover{
+	transform: translate3D(0px, -180px, 0px);
+}
+
+.img1{
+	width: auto;
+	height: 180px;
+  	-webkit-filter: grayscale(1);
+  	filter: grayscale(1);
+}
+
+.img2{
+	width: auto;
+	height: 180px;
+}
+
+.background{
+	position: fixed;
+	top: 0px;
+	width: 100vw;
+	background-color: gray;
+	height: 450px;
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.namecard{
+	position: fixed;
+	top: 250px;
+	right: 20px;
+}
+
+#name{
+	font-size: 100px;
+	font-family: cursive;
+	font-weight: bold;
+	color: white;
+}
